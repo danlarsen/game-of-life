@@ -1,0 +1,19 @@
+{
+	"presets": [
+		"@babel/preset-react",
+		[
+			"@babel/preset-env",
+			{
+				"modules": "cjs"
+			}
+		]
+	],
+	"plugins": [
+		[
+		  "@babel/plugin-proposal-class-properties",
+		  {
+			"loose": true
+		  }
+		]
+	  ]
+}
